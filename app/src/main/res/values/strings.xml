@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Ginger</string>
+    <string name="freshchat_file_provider_authority">com.xapptree.ginger.provider</string>
+
+    <string name="view_status">View Status</string>
+    <string name="success_txt2">To view Order status click on below button.</string>
+    <string name="success_txt1">Your Order has been placed Successfully</string>
+    <string name="restaurent_header">Restaurents</string>
+    <string name="menu_header">Menu</string>
+    <string name="your_cart_is_empty">Your cart is empty</string>
+    <string name="emptycart_msg">Looks like you haven\'t made  your menu yet.</string>
+    <string name="canceltxt">Cancel</string>
+    <string name="pickup">* Pick-up your food once you get order confirmation from restaurent.</string>
+    <string name="homedeliver">* Just relax, Our delivery agent will take care and deliver food to your door step.</string>
+    <string name="cash_text">Please keep exact change of payment amount to help us.</string>
+    <string name="razorpay_text">Pay with Debit card , Credit Card , Internet Banking and Wallets</string>
+    <string name="invitation_message">Refer and Earn Rs 50 fr successful Refferal.</string>
+    <string name="invitation_custom_image">https://media-cdn.tripadvisor.com/media/photo-s/0f/17/fd/58/bring-ob-the-burgers.jpg</string>
+    <string name="invitation_cta">Invite NOW</string>
+    <string name="invitation_title">Ginger Invited you</string>
+    <string name="invitation_deep_link">https://mx264.app.goo.gl/REFER</string>
+    <string name="instruction_order">Any instructions ? Ex:- Like extra ketchup</string>
+</resources>

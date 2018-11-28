@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="150dp">
+
+        <TextView
+            android:id="@+id/voidmode"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_toLeftOf="@+id/center"
+            android:background="@drawable/search_bg"
+            android:gravity="center"
+            android:text="Void"
+            android:textColor="@color/blacklight"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/center"
+            android:layout_width="30dp"
+            android:layout_height="match_parent"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/checkmode"
+            android:layout_width="150dp"
+            android:layout_height="80dp"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/center"
+            android:background="@drawable/login_buttonbg"
+            android:gravity="center"
+            android:text="CheckOut"
+            android:textColor="@color/white"
+            android:textSize="18sp" />
+    </RelativeLayout>
+</RelativeLayout>

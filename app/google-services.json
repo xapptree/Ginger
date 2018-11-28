@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "761960907890",
+    "firebase_url": "https://ginger-f8884.firebaseio.com",
+    "project_id": "ginger-f8884",
+    "storage_bucket": "ginger-f8884.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:761960907890:android:cc653cd986384ea8",
+        "android_client_info": {
+          "package_name": "com.xapptree.ginger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "761960907890-stndif7lefd9458jdu18g3fcp3u4hct7.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.xapptree.ginger",
+            "certificate_hash": "a7adc064be5f40272dce66b0b71618d73bbb6dd7"
+          }
+        },
+        {
+          "client_id": "761960907890-3pql4nb65r3lc06it7ca7fb1l596r59p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7Cu_AdHcAkfn26VikhTemVa42B_pVVb0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "761960907890-3pql4nb65r3lc06it7ca7fb1l596r59p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

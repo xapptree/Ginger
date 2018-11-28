@@ -1,0 +1,7 @@
+<resources>
+    <!--AIzaSyATUx6CljXFZYkYyhE_VB8epG-FUqKnvw8 //Test key-->
+    <!--AIzaSyBaA-0P8_wvVY77kRs122PIkRLHZGGu5Qo // Prod key-->
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyAljXRCGbLQdwcObWcdUQS8Y8WlZWC2RTI</string>
+
+    <string name="google_places_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBaA-0P8_wvVY77kRs122PIkRLHZGGu5Qo</string>
+</resources>

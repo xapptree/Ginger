@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.xapptree.ginger">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:name=".GingerApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ginger_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:replace="android:icon,android:theme">
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity">
+            <meta-data
+                android:name="showInApp"
+                android:value="false" />
+        </activity>
+        <activity android:name=".MenuScreen" />
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBaA-0P8_wvVY77kRs122PIkRLHZGGu5Qo" />
+        <!--Check api key environment from googleApi keys in values-->
+
+        <activity android:name=".RestaurentScreen" />
+        <activity android:name=".OrderItemScreen" />
+        <activity android:name=".CheckoutScreen" />
+        <activity android:name=".SuccessScreen" />
+        <activity android:name=".OrderDetailsScreen" />
+        <activity android:name=".MyOrders" />
+        <activity android:name=".OfferScreen" />
+        <activity android:name=".ProfileScreen" />
+        <activity android:name=".MapsActivity" />
+        <activity android:name=".LoginScreen"/>
+
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="com.xapptree.ginger.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/freshchat_file_provider_paths" />
+        </provider>
+
+        <!-- [START firebase_service] -->
+        <service android:name=".MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_service] -->
+        <!-- [START firebase_iid_service] -->
+        <service android:name=".MyFirebaseInstanceIDService">
+            <intent-filter>
+                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+            </intent-filter>
+        </service>
+        <!-- [END firebase_iid_service] -->
+
+        <meta-data
+            android:name="APP_ID"
+            android:value="ED5DKJS3C3HABQB5DA3WHYOW" />
+
+        <!-- MANDATORY FIELD: SENDER ID , i.e. THE PROJECT NUMBER AS MENTIONED ON GOOGLE CLOUD CONSOLE PROJECTS PAGE -->
+        <meta-data
+            android:name="SENDER_ID"
+            android:value="id:359826581518" />
+        <!-- MAnditory change project id to release folder id when going Production.-->
+
+        <!-- MANDATORY FIELD: THE NOTIFICATION SMALL ICON WHICH WILL BE USED TO SET TO NOTIFICATIONS POSTED -->
+        <meta-data
+            android:name="NOTIFICATION_ICON"
+            android:value="@drawable/ic_star" />
+
+        <!-- MANDATORY FIELD: THE NOTIFICATION LARGE ICON WHICH WILL BE USED TO SET TO NOTIFICATIONS POSTED -->
+        <meta-data
+            android:name="NOTIFICATION_LARGE_ICON"
+            android:value="@drawable/ic_star" />
+        <meta-data
+            android:name="SKIP_GCM_REGISTRATION"
+            android:value="true" />
+    </application>
+
+</manifest>

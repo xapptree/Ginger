@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">761960907890-3pql4nb65r3lc06it7ca7fb1l596r59p.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://ginger-f8884.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">761960907890</string>
+    <string name="google_api_key" translatable="false">AIzaSyC7Cu_AdHcAkfn26VikhTemVa42B_pVVb0</string>
+    <string name="google_app_id" translatable="false">1:761960907890:android:cc653cd986384ea8</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyC7Cu_AdHcAkfn26VikhTemVa42B_pVVb0</string>
+    <string name="google_storage_bucket" translatable="false">ginger-f8884.appspot.com</string>
+    <string name="project_id" translatable="false">ginger-f8884</string>
+</resources>

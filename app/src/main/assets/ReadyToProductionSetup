@@ -1,0 +1,11 @@
+MoEngage- Change Sender id from dev to prod id in Manifest
+PushKey - Change Push key in Moengage dashboard. For dev Environment refer gingerDevelopment firebase cloudmessaging Api key
+          And for Production use Ginger firebase cloud Messaging Appi key.
+FreshChat -
+Google geo api change Api key reference google Api file in values
+
+Cloud Functions - Check cloud function is working or not in both Environments.
+
+Notification - Check Notifications is working from  both Firebase and MoEngage. if added freshchat check that too.
+
+Maintain cloud Functions Ginger - fuctionGinger and GingerDeveloopment - functionGingerDevelopment.
